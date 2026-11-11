@@ -32,6 +32,10 @@ nav a:hover {
     color: white;
 }
 
+nav a:hover::after {
+    content: "←";
+}
+
 h1 {
     color: #E6B800;
     margin-top: 50px;
@@ -56,6 +60,11 @@ h1 {
     display: inline-block;
     margin-top: 80px;
     transform: rotate(-10deg);
+}
+
+.tilted-text:hover {
+    transform: rotate(-15deg) scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .container-bouton {
@@ -107,6 +116,7 @@ h1 {
     margin-right: auto;
     margin-left:120px;
     align-self: center;
+    margin-top: 30px;
 }
 
 .image-figurine {
