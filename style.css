@@ -79,3 +79,36 @@ h1 {
 .bouton:hover {
     background-color: #B59226;
 }
+
+.container-top-figurine {
+    display: flex;
+}
+
+.container-description-text {
+    background-color: #14171D;
+    margin-right: 50px;
+    margin-top: 40px;
+    width: 420px;
+    font-size: 25px;
+    align-self: flex-start;
+    border-radius: 10px;
+    border: 1px solid #D4AF37;
+    padding: 25px;
+}
+
+.text-general {
+    color: #CBD5E1;
+    font-size: 27px;
+    line-height: 1.4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.image-container-figurine {
+    margin-right: auto;
+    margin-left:120px;
+    align-self: center;
+}
+
+.image-figurine {
+    width: 200px;
+}
