@@ -112,3 +112,14 @@ h1 {
 .image-figurine {
     width: 200px;
 }
+
+.container-bottom-description {
+    background-color: #14171D;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #D4AF37;
+    border-radius: 40px;
+}
