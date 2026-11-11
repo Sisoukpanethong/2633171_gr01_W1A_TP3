@@ -173,3 +173,14 @@ h1 {
     border-radius: 40px;
     margin-left: 50px;
 }
+
+.container-text-histoire {
+    background-color: #14171D;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid #D4AF37;
+    border-radius: 40px;
+}
