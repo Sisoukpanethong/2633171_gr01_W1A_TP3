@@ -1,1 +1,33 @@
-body {}
+body {
+        background-color: #4E4E4E;
+}
+
+.site-globale {
+    height: 1250px;
+    width: 1000px;
+    background-color: #1E222A;
+    margin: 0 auto;
+}
+
+header {
+    height: 75px;
+    background-color: #14171D;
+}
+
+nav {
+    text-align: center;
+    padding-top: 22px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A0AEC0;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
